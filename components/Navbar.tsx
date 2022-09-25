@@ -1,7 +1,7 @@
-import { useState } from "react";
-import Image from "next/image";
-import logo from "../public/logo.png"
-import {HiMenuAlt4} from "react-icons/hi"
+import { useState } from 'react';
+import Image from 'next/image';
+import logo from '../public/logo.png';
+import { HiMenuAlt4 } from 'react-icons/hi';
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
@@ -13,20 +13,21 @@ export default function Navbar() {
               className="text-sm flex justify-center items-center font-bold leading-relaxed space-x-3 mr-4 py-2 whitespace-nowrap  text-white"
               href="#pablo"
             >
-             <Image src= {logo} height={50} width={50} /> <span className="text-3xl text-purple-500 "> Eviate </span>
+              <Image src={logo} height={50} width={50} />{' '}
+              <span className="text-3xl text-purple-500 "> Eviate </span>
             </a>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <HiMenuAlt4 height={500} width={25}/>
+              <HiMenuAlt4 height={500} width={25} />
             </button>
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center" +
-              (navbarOpen ? " flex" : " hidden")
+              'lg:flex flex-grow items-center' +
+              (navbarOpen ? ' flex' : ' hidden')
             }
             id="example-navbar-danger"
           >
@@ -36,7 +37,7 @@ export default function Navbar() {
                   className="px-3 py-2 flex items-center text-sm  font-bold leading-snug text-white hover:opacity-75"
                   href="https://docs-eviate.vercel.app"
                 >
-                 Documentation
+                  Documentation
                 </a>
               </li>
               <li className="nav-item">
@@ -44,7 +45,7 @@ export default function Navbar() {
                   className="px-3 py-2 flex items-center text-sm  font-bold leading-snug text-white hover:opacity-75"
                   href="https://github.com/eviatejs/eviate"
                 >
-                Github
+                  Github
                 </a>
               </li>
             </ul>
