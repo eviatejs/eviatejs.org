@@ -18,9 +18,9 @@ export default function Footer() {
             <div
               className="mx-auto rounded-lg font-black mt-5 text-zinc-400 md:mt-12 md:max-w-lg text-center lg:text-lg"
             >
-              <button className="bg-tkb border text-sm text-white py-3 px-7 rounded-full">
+              <a href="https://github.com/eviatejs/eviate" className="bg-tkb border text-sm text-white py-3 px-7 rounded-full">
               Check-us out
-              </button>
+              </a>
             </div>
           </div>
   </section>

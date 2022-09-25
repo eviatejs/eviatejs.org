@@ -33,16 +33,8 @@ export default function Navbar() {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="px-3 text-sm py-2 flex items-center  uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
-                >
-                Guide
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
                   className="px-3 py-2 flex items-center text-sm  font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="https://docs-eviate.vercel.app"
                 >
                  Documentation
                 </a>
@@ -50,7 +42,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-sm  font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="https://github.com/eviatejs/eviate"
                 >
                 Github
                 </a>
