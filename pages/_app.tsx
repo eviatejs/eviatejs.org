@@ -14,8 +14,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         description="The next-gen backend framework for bun"
         openGraph={{
           url: 'https://eviate.vercel.app/',
-          title: 'Open Graph Title',
-          description: 'Open Graph Description',
+          title: 'EviateJS',
+          description: 'The next-gen backend framework for bun',
           site_name: 'EviateJS'
         }}
         twitter={{
