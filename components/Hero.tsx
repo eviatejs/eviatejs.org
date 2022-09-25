@@ -4,7 +4,7 @@ export default function Hero() {
           <div className="py-2 px-2 text-sm md:text-md ring w-fit ring-purple-700 text-purple-200 rounded-md hover:bg-purple-900 hover:ring-purple-500 ">Discover more over at github</div>
           <div className="w-full text-5xl md:text-7xl text-white font-bold md:w-2/3 pt-8 ">The next gen backend web <span className="text-purple-500">framework.</span> </div>
           <div className="w-full text-xl md:w-2/3 pt-8  text-gray-400">
-          Eviate is the next-gen backend framework which is less than <span className="text-purple-400">5 KB</span>, it's based on web standards like Response and Response, has inbuilt  
+          Eviate is the next-gen backend framework which is less than <span className="text-purple-400">5 KB</span>, it&apos;s based on web standards like Response and Response, has inbuilt  
           <span className="text-purple-400"> config system</span>,
           <span className="text-purple-400"> file based routing</span>,
           <span className="text-purple-400"> response handling</span> and
