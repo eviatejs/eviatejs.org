@@ -29,7 +29,7 @@ export default function Features() {
                 <div className="text-2xl font-bold text-purple-400">Fast</div>
                 <p className="max-w-xs py-2 text-sm text-white">
                   Built from the ground up with performance in mind. Zero,
-                  Zilch, Nada dependencies. It's 2022, performance and size does matter,
+                  Zilch, Nada dependencies. It{"'"}s 2022, performance and size does matter,
                   still. No extra code, no extra weight. Super super low overhead.
                 </p>
               </div>
