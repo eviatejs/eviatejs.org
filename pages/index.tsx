@@ -1,15 +1,13 @@
-import Features from '../components/Features';
-import Footer from '../components/footer';
-import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import Landing from "../components/Land";
 
 const Home = () => {
   return (
-    <div className="min-h-scren min-w-full  bg-[#18181B] ">
+    <div className="min-h-scren min-w-full bg-gradient-to-r from-[#040014] via-[#1b0627] to-[#040019] ">
       <Navbar />
-      <Hero />
-      <Features />
-      <Footer />
+      <div className='min-h-screen min-w-full bg-gradient-to-r from-[#040014] via-[#1b0627] to-[#040019]'>
+      <Landing/>
+    </div>
     </div>
   );
 };
