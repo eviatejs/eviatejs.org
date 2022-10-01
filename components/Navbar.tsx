@@ -2,11 +2,11 @@ import { useState } from 'react';
 import Image from 'next/image';
 import logo from '../public/logo.png';
 import { HiMenuAlt4 } from 'react-icons/hi';
-export default function Navbar() {
+export default function Navbar() { //
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-transparent mb-3">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-gradient-to-r from-[#040014] via-[#1b0627] to-[#040019] mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
